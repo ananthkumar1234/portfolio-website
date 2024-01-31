@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: lightgray;
+    background-image: url(bgphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainbar{
+    background-color: lightgray;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+ol{
+    margin-left: 180px;
+}
+ol li{
+    list-style: none;
+    display: inline;
+    /* margin-left: 20px; */
+}
+li a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 8px;
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.container{
+    padding: 30px; 
+    display: flex;
+    justify-content: space-around;  
+}
+.container h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.container span{
+    color: orange;
+    font-size: 30px;
+}
+.container p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn button{
+    width: 100px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.btn #b1{
+    background-color: orange;
+}
+.btn #b2{
+    background-color: transparent;
+    color: white;
+}
+.logos i{
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 1px solid orange;
+    padding: 5px;
+    color: white;
+}
+.right img{
+    width: 300px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px solid black;
+}
